@@ -1,0 +1,53 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and generated files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+
+# Test, coverage, and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Logs and local runtime files
+*.log
+*.pid
+
+# Local application data
+documents.db
+documents.db-*
+
+# Model and framework caches
+.cache/
+cache/
+models/
+sentence-transformers/
+
+# Build and packaging output
+build/
+dist/
+pip-wheel-metadata/
+wheelhouse/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

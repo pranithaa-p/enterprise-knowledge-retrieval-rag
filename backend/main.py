@@ -34,6 +34,8 @@ app = FastAPI(
 
 DB_PATH = Path(os.getenv("DATA_DIR", ".")) / "documents.db"
 
+
+
 MAX_FILE_SIZE = 20 * 1024 * 1024
 MAX_BATCH_FILES = 20
 MAX_BATCH_SIZE = 100 * 1024 * 1024
